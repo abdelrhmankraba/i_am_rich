@@ -1,0 +1,45 @@
+name: i_am_rich
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.0.3
+  intl: ^0.17.0
+  conditional_builder_null_safety: ^0.0.6
+  flutter_bloc: ^8.0.1
+  bloc: ^8.0.1
+  dio: ^4.0.6
+  hexcolor: ^2.0.7
+  shared_preferences: ^2.0.15
+  webview_flutter: ^3.0.4
+  smooth_page_indicator: ^1.0.0+2
+  fluttertoast: ^8.0.9
+  carousel_slider: ^4.1.1
+  curved_navigation_bar: ^1.0.3
+  flutter_rating_bar: ^4.0.1
+  badges: ^2.0.3
+  animated_text_kit: ^4.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/images/
+  fonts:
+    - family: Jannah
+      fonts:
+       - asset: assets/fonts/jannah.ttf
+
